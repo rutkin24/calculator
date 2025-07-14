@@ -56,8 +56,8 @@ public class QuizGame {
         System.out.println("C) литавры");
         System.out.println("D) орган");
         System.out.print("Ваш ответ (буква A, B, C или D): ");
-        String answer2 = scanner.nextLine();
-        if(answer2.equalsIgnoreCase("D")) {
+        String answer4 = scanner.nextLine();
+        if(answer4.equalsIgnoreCase("D")) {
             System.out.println("Правильно!\n");
             score++;
         } else {
@@ -72,8 +72,8 @@ public class QuizGame {
         System.out.println("C) 50-150");
         System.out.println("D) 69");
         System.out.print("Ваш ответ (буква A, B, C или D): ");
-        String answer2 = scanner.nextLine();
-        if(answer2.equalsIgnoreCase("B")) {
+        String answer5 = scanner.nextLine();
+        if(answer5.equalsIgnoreCase("B")) {
             System.out.println("Правильно!\n");
             score++;
         } else {
@@ -86,8 +86,8 @@ public class QuizGame {
         System.out.println("C) 3 часа");
         System.out.println("D) 40 секунд");
         System.out.print("Ваш ответ (буква A, B, C или D): ");
-        String answer2 = scanner.nextLine();
-        if(answer2.equalsIgnoreCase("B")) {
+        String answer6 = scanner.nextLine();
+        if(answer6.equalsIgnoreCase("B")) {
             System.out.println("Правильно!\n");
             score++;
         } else {
@@ -100,8 +100,8 @@ public class QuizGame {
         System.out.println("C) 111 метров");
         System.out.println("D) 153 метра");
         System.out.print("Ваш ответ (буква A, B, C или D): ");
-        String answer2 = scanner.nextLine();
-        if(answer2.equalsIgnoreCase("B")) {
+        String answer7 = scanner.nextLine();
+        if(answer7.equalsIgnoreCase("B")) {
             System.out.println("Правильно!\n");
             score++;
         } else {
