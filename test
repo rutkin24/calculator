@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class SimpleCalculator {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        
+        System.out.print("Введите первое число: ");
+        double num1 = sc.nextDouble();
+        
+        
+        System.out.print("Введите операцию (+, -, *, /): ");
+        char operation = sc.next().charAt(0);
+        
+        
+        System.out.print("Введите второе число: ");
+        double num2 = sc.nextDouble();
+        
+        
+        double result;
+        switch(operation) {
+            case '+': result = num1 + num2; break;
+            case '-': result = num1 - num2; break;
+            case '*': result = num1 * num2; break;
+            case '/': 
+                if(num2 != 0) {
+                    result = num1 / num2;
+                } else {
+                    System.out.println("Ошибка: Деление на ноль невозможно.");
+                    return;
+                }
+                break;
+            default:
+                System.out.println("Неправильная операция. Используйте +, -, *, /.");
+                return;
+        }
+        
+        // Шаг 4: вывод результата
+        System.out.println("Результат: " + num1 + " " + operation + " " + num2 + " = " + result);
+    }
+}
